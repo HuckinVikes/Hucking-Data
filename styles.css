@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+nav, footer{
+    background-color: gray;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+footer{
+    text-shadow: 3px 3px 10px white;
+}
+
+h1{
+    text-shadow: 3px 3px 10px white;
+}
+
+table, tr, th{
+    padding: 6px;
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+button{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 3px 3px 15px white;
+}
+
+button:hover{
+    margin: 5px 5px 0px 5px;
+}
+
+#Home{
+    display: block;
+}
+
+#Data{
+    display: none;
+}
+
+#News{
+    display: none;
+}
+
+#popUp{
+    display: none;
+    background-color: #04AA6D;
+    border: 3px solid #6804aa;
+}
+
+.article{
+
+    padding: 15px;
+    margin: 25px;
+    border: 4px double black;
+}
+
+p{    
+    padding: 3px;
+}
